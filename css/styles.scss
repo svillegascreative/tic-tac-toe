@@ -15,10 +15,11 @@ body {
 }
 
 .bg {
-  min-height: 100%;
-  width: 100%;
+  min-height: 110%;
+  width: 110%;
   position: fixed;
-  top: 0;
+  top: -5%;
+  left:-5%;
   z-index: -100;
   background: url('https://static.pexels.com/photos/274314/pexels-photo-274314.jpeg');
   background-size: cover;
