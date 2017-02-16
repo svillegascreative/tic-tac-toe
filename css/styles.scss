@@ -8,6 +8,19 @@ h1 {
   text-align: center;
 }
 
+.player {
+  margin: 1em 0;
+  text-align: center;
+  span {
+    font-size: 2em;
+    padding: 0.2em 0.5em;
+    margin: 0.5em;
+  }
+}
+.goes {
+  background-color: lightblue;
+}
+
 .board {
   max-width: 302px;
   border: 1px solid #444;
