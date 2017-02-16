@@ -42,12 +42,9 @@ h1 {
   height: 100px;
   border: 1px solid #444;
   float: left;
+  font-size: 100px;
+  text-align: center;
 }
 
 .marked {
-  background-color: grey;
-  &:before {
-    content: "x";
-    font-size: 100px;
-  }
 }
