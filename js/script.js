@@ -8,9 +8,9 @@ $(document).ready(function() {
       $('.player-o').toggleClass('goes');
 
       if ( $('span.player-x').hasClass('goes') === true ) {
-        $(this).text('O');
+        $(this).append('<i class="fa fa-glass"></i>');
       } else {
-        $(this).text('X');
+        $(this).append('<i class="fa fa-beer"></i>');
       }
 
     }
