@@ -6,7 +6,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background: url('https://static.pexels.com/photos/2286/restaurant-people-alcohol-bar.jpg');
+  background: url('https://static.pexels.com/photos/274314/pexels-photo-274314.jpeg');
   background-size: cover;
   background-position: center;
 }
@@ -58,4 +58,13 @@ body {
 }
 
 .marked {
+}
+
+.reload {
+  margin: 1em auto;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2em;
+  background: lightblue;
+  display: block;
 }
