@@ -4,8 +4,22 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  min-height: 100%;
+  margin: 0;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg {
+  min-height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: -100;
   background: url('https://static.pexels.com/photos/274314/pexels-photo-274314.jpeg');
   background-size: cover;
   background-position: center;
