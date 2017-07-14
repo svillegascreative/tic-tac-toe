@@ -1,0 +1,125 @@
+// Copied from CodePend at https://codepen.io/svillegas/pen/KaYKWE
+
+$color-1: goldenrod;
+$fun-font: "Rock Salt", cursive;
+$main-font: "Fresca", Arial, Helvetica, sans-serif;
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: $main-font;
+  text-align: center;
+}
+
+.bg {
+  min-height: 110%;
+  width: 110%;
+  position: fixed;
+  top: -5%;
+  left:-5%;
+  z-index: -100;
+  background: url('https://static.pexels.com/photos/274314/pexels-photo-274314.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  font-family: $fun-font;
+  font-size: 3.5rem;
+  color: $color-1;
+  text-shadow: 2px 2px 8px #222, 0 0 40px lightblue;
+  line-height: 1em;
+  margin-bottom: -10px;
+}
+
+.player,
+.game-over {
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: 2rem;
+  background-color: rgba(200,200,200,0.7);
+  padding: 1em;
+  width: 60%;
+}
+
+.player {
+  margin-bottom: 2rem;
+  span {
+    padding: 0.2rem 0.5rem;
+    margin: 0.5rem;
+  }
+}
+
+.goes {
+  background-color: $color-1;
+    &:before {
+      font-family: "FontAwesome";
+      content: "\f0a4";
+      margin-right: 0.2em;
+    }
+}
+
+
+.board {
+  max-width: 302px;
+  border: 1px solid #444;
+  margin: 0 auto;
+}
+
+.row {
+  overflow: hidden;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #444;
+  background-color: #fff;
+  float: left;
+  font-size: 80px;
+  line-height: 100px;
+  text-align: center;
+  font-family: "FontAwesome";
+}
+
+.fa-beer {
+  color: peru;
+}
+
+.fa-glass {
+  color: steelblue;
+}
+
+.fa-beer,
+.fa-glass {
+  text-shadow: 1px 1px 5px #888;
+}
+
+.game-over {
+  display: none;
+  transition: all ease 0.5s;
+  margin: 2rem auto;
+}
+
+.outcome {
+}
+
+.reload {
+  margin: 0.5rem auto 0;
+  padding: 0 1rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+  background: lightblue;
+  display: block;
+  font-family: $fun-font;
+}
